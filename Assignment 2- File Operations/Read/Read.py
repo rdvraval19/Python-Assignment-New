@@ -1,5 +1,5 @@
 #r read
-with open("new.txt") as f:
+with open("new.txt","r") as f:
   print(f.read())
 
 #r+ read and write 
