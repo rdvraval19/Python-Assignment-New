@@ -1,0 +1,15 @@
+#create an input  ad take some random numbers and then sort them into two list Odd and Even 
+e=[]
+o=[]
+while(True):
+  x=input("Enter the Number(or type exit):")
+  if x=="exit":
+     break
+  else:
+      y=int(x)
+      if y%2==0:
+        e.append(y)
+      else:
+        o.append(y)
+print("oddlist",o)
+print("evenlist",e)
