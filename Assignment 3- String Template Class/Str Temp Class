@@ -1,0 +1,6 @@
+from string import Template
+store = [('CPU',45000), ('Camera',30000), ('Smartphone',20000),("Headphones",1000)]
+x = Template('The product $name has the price of $price rupees.')
+
+for i in store:
+	print (x.substitute(name = i[0], price = i[1]))
